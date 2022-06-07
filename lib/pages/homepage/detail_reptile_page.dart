@@ -196,6 +196,7 @@ class _DetailReptilePageState extends State<DetailReptilePage> {
                   onTap: () {
                     setState(() {
                       isFavorite = !isFavorite;
+                      print(isFavorite);
                     });
                   },
                   child: Icon(
