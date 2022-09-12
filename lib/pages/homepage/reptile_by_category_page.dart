@@ -2,6 +2,7 @@ import 'package:reptiles_room/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:reptiles_room/widgets/reptile_card.dart';
 
+// ignore: must_be_immutable
 class ReptileByCategoryPage extends StatelessWidget {
   String? categoryName;
   List<ReptileCard>? data;

@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
               type: PageTransitionType.rightToLeft,
             );
         }
+        return null;
       },
       home: Scaffold(
         body: SplashScreen(),
